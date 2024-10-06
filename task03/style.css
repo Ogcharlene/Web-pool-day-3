@@ -1,0 +1,83 @@
+.title {
+    display: flexbox;
+    background-color: blue;
+    width: 100%;
+
+    @media screen and (max-width: 767px) {}
+
+    @media screen and (max-width: 1024px) {
+        width: 50%;
+        margin-top: 30px;
+    }
+}
+
+.menu {
+    display: flexbox;
+    background-color: green;
+
+    @media screen and (max-width: 767px) {}
+
+    @media screen and (max-width: 1024px) {}
+
+
+}
+
+.section1 {
+    display: flexbox;
+
+    @media screen and (max-width: 767px) {}
+
+    @media screen and (max-width: 1024px) {
+        display: flex;
+        gap: 10px;
+
+    }
+}
+
+.colorArticle {
+    background-color: yellow;
+}
+
+.section2 {
+    display: flexbox;
+    width: 100vw;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 767px) {}
+
+    @media screen and (max-width: 1024px) {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+
+    }
+}
+
+.art1 {
+    width: 49%;
+    background-color: purple;
+}
+
+.art2 {
+    width: 49%;
+    background-color: purple;
+}
+
+.footer {
+
+    /* for deskop */
+
+    display: flexbox;
+    background-color: red;
+
+    /* For smartphone */
+
+    @media screen and (max-width: 767px) {}
+
+    /* For tablette */
+
+    @media screen and (max-width: 1024px) {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}

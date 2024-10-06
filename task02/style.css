@@ -1,0 +1,38 @@
+.title {
+    display: flexbox;
+    background-color: blue;
+
+    @media screen and (max-width: 767px) {}
+}
+
+.menu {
+    display: flexbox;
+    background-color: green;
+
+    @media screen and (max-width: 767px) {}
+
+
+}
+
+.section1 {
+    display: flexbox;
+    background-color: yellow;
+
+    @media screen and (max-width: 767px) {
+        
+    }
+}
+
+.section2 {
+    display: flexbox;
+    background-color: yellow;
+
+    @media screen and (max-width: 767px) {}
+}
+
+.footer {
+    display: flexbox;
+    background-color: red;
+
+    @media screen and (max-width: 767px) {}
+}

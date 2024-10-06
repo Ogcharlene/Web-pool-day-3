@@ -1,0 +1,93 @@
+.title {
+    display: flexbox;
+    background-color: blue;
+    width: 30%;
+
+    @media screen and (max-width: 767px) {
+        width: 100%
+    }
+
+    @media screen and (max-width: 1024px) {
+        width: 50%;
+        margin-top: 30px;
+    }
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: green;
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 10px;
+}
+
+.colorArticle {
+    background-color: yellow;
+    width: 100%;
+
+    @media (min-width: 767px) {
+        width: 45%;
+    }
+
+    @media (min-width: 1024px) {
+        width: 30%;
+    }
+}
+
+.section2 {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.art1 {
+    background-color: purple;
+    width: 100%;
+
+    @media (min-width: 767px) {
+        width: 45%;
+    }
+
+    @media (min-width: 1024px) {
+        width: 30%;
+    }
+}
+
+.art2 {
+    background-color: palevioletred;
+    width: 100%;
+
+    @media (min-width: 767px) {
+        width: 45%;
+    }
+
+    @media (min-width: 1024px) {
+        width: 30%;
+    }
+}
+
+.footer {
+
+    /* for deskop */
+
+    display: flex;
+    background-color: red;
+    width: 100%;
+
+    /* For smartphone */
+
+    @media screen and (max-width: 767px) {}
+
+    /* For tablette */
+
+    @media screen and (max-width: 1024px) {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
